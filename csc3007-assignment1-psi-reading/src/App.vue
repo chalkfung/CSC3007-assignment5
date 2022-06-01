@@ -5,11 +5,11 @@
       dark
       app
     >
-      <v-app-bar-nav-icon @click="drawer = true"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon @click="toggleNavBar"></v-app-bar-nav-icon>
 
       <v-toolbar-title>CSC3007 Assignment</v-toolbar-title>
     </v-app-bar>
-    <NavBar/>
+    <NavBar ref="navbar"/>
     <v-main>
         <router-view/>
     </v-main>
@@ -22,6 +22,11 @@ import navbar from "@/components/NavBar.vue"
   export default {
     data: () => ({
     }),
+    methods:{
+      toggleNavBar(){
+        this.$refs.navbar.toggleDrawer()
+      }
+    },
     components:{
       NavBar: navbar
       }

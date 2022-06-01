@@ -1,14 +1,9 @@
 <template>
-  <div class="home">
-    <h1>Home of Assignments</h1>
-  </div>
+  <v-container fill-height fluid>
+    <v-row align="center" justify="center">
+      <div class="text-center">
+        <h1>Homepage of Cheuk Fung's CSC3007 Assignments</h1>
+      </div>
+  </v-row>
+</v-container>
 </template>
-<script>
-export default {
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  }
-}
-</script>
