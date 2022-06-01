@@ -5,7 +5,6 @@
 </template>
 <script>
 export default {
-  name: 'HomeView',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
