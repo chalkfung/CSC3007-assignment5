@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: '',
+  publicPath: process.env.NODE_ENV === "production" ? "/CSC3007-assignment1/" : "/",
   outputDir: 'docs'
 })
