@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container fluid>
     <v-row justify="center" class="py-6">
       <h1>Singapore Air Quality Table</h1>
     </v-row>
@@ -8,7 +8,7 @@
         class="elevation-1">
       </v-data-table>
     </v-row>
-    <v-row justify="center" class="py-6">
+    <v-row justify="center">
       <h3>Updated as of: {{ this.updateTime }}</h3>
     </v-row>
   </v-container>
