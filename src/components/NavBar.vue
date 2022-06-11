@@ -17,7 +17,7 @@
         </v-list-item>
         <v-list-item to="/a2">
           <v-list-item-icon>
-            <v-icon>mdi-weather-hazy</v-icon>
+            <v-icon>mdi-account-tie-hat</v-icon>
           </v-list-item-icon>
           <v-list-item-title>Assignment 2 - Crime Rate</v-list-item-title>
         </v-list-item>
