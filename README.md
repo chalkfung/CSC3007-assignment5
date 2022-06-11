@@ -1,4 +1,4 @@
-# csc3007-assignment1-psi-reading
+# csc3002-assignment1-crime-rate
 
 ## Project setup
 ```

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/views/HomeView.vue'
 import A1 from '@/views/A1View.vue'
+import A2 from "@/views/A2View.vue"
 import PageNotFound from '@/views/PageNotFound.vue'
 Vue.use(Router)
 
@@ -23,6 +24,14 @@ export default new Router({
             components:
             {
                 default: A1,
+            }
+        },
+        {
+            path: '/a2',
+            name: 'a2',
+            components:
+            {
+                default: A2
             }
         },
         {
