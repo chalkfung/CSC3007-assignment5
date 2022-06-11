@@ -1,4 +1,4 @@
-# csc3002-assignment1-crime-rate
+# csc3007-assignment2-crime-rate
 
 ## Project setup
 ```
