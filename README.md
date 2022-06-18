@@ -1,4 +1,4 @@
-# csc3007-assignment2-crime-rate
+# csc3007-assignment3-2021-singapore-population
 
 ## Project setup
 ```
