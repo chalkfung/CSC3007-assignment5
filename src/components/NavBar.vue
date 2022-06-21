@@ -23,7 +23,7 @@
         </v-list-item>
         <v-list-item to="/a3">
           <v-list-item-icon>
-            <v-icon>mdi-account-tie-hat</v-icon>
+            <v-icon>mdi-home-city</v-icon>
           </v-list-item-icon>
           <v-list-item-title>A3 - SG Population 2021</v-list-item-title>
         </v-list-item>
