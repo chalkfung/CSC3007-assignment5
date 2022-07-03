@@ -27,6 +27,12 @@
           </v-list-item-icon>
           <v-list-item-title>A3 - SG Population 2021</v-list-item-title>
         </v-list-item>
+        <v-list-item to="/a4">
+          <v-list-item-icon>
+            <v-icon>mdi-virus</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>A4 - Covid Force Graph</v-list-item-title>
+        </v-list-item>
       </v-list-item-group>
     </v-list>
   </v-navigation-drawer>

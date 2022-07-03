@@ -4,6 +4,7 @@ import Home from '@/views/HomeView.vue'
 import A1 from '@/views/A1View.vue'
 import A2 from '@/views/A2View.vue'
 import A3 from '@/views/A3View.vue'
+import A4 from '@/views/A4View.vue'
 import PageNotFound from '@/views/PageNotFound.vue'
 Vue.use(Router)
 
@@ -41,6 +42,14 @@ export default new Router({
             components:
             {
                 default: A3
+            }
+        },
+        {
+            path: '/a4',
+            name: 'a4',
+            components:
+            {
+                default: A4
             }
         },
         {

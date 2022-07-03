@@ -1,5 +1,5 @@
 {
-  "name": "csc3007-2021-singapore-population",
+  "name": "csc3007-2021-network-graph",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "axios": "^0.27.2",
     "core-js": "^3.8.3",
     "d3": "^7.4.4",
+    "d3-selection-multi": "^1.0.1",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuetify": "^2.6.0"
@@ -19,6 +20,7 @@
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@types/d3": "^7.4.0",
+    "@types/d3-selection-multi": "^1.0.10",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",

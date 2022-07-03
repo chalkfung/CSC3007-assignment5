@@ -1,4 +1,4 @@
-# csc3007-assignment3-2021-singapore-population
+# csc3007-assignment4-2021-male-female-network-graph
 
 ## Project setup
 ```
