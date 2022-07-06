@@ -5,7 +5,7 @@
     </v-row>
     <v-row>
       <v-col cols="9">
-        <svg id="map"></svg>
+        <svg></svg>
       </v-col>
       <v-col cols="3">
         <v-container fill-height>
@@ -57,9 +57,24 @@ export default {
           e.target = e.infectee;
         });
 
-        let svg = d3.select("#map")
+        let svg = d3.select("svg")
           .attr("viewBox", "0 0 " + width + " " + height)
         let size = 10
+
+        svg.append('defs')
+          .append('marker')
+          .attr('id', 'arrowhead')
+          .attr('viewBox', '-0 -5 10 10')
+          .attr('refX', 16)
+          .attr('refY', 0)
+          .attr('orient', 'auto')
+          .attr('markerWidth', 13)
+          .attr('markerHeight', 13)
+          .attr('xoverflow', 'visible')
+          .append('svg:path')
+          .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+          .attr('fill', '#999')
+          .style('stroke', 'none');
 
         let linkpath = svg.append("g")
           .attr("id", "links")
@@ -69,6 +84,7 @@ export default {
           .append("path")
           .attr("fill", "none")
           .attr("stroke", "black")
+          .attr('marker-end','url(#arrowhead)')
 
         let node = svg.append("g")
           .attr("id", "nodes")
