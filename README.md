@@ -1,4 +1,4 @@
-# csc3007-assignment4-2021-male-female-network-graph
+# csc3007-assignment5-leaflet-sg-psi
 
 ## Project setup
 ```

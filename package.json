@@ -1,5 +1,5 @@
 {
-  "name": "csc3007-2021-network-graph",
+  "name": "csc3007-leaflet-sg-psi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,8 +12,10 @@
     "core-js": "^3.8.3",
     "d3": "^7.4.4",
     "d3-selection-multi": "^1.0.1",
+    "leaflet": "^1.8.0",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
+    "vue2-leaflet": "^2.7.1",
     "vuetify": "^2.6.0"
   },
   "devDependencies": {
@@ -51,5 +53,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "overrides": {
+    "autoprefixer": "10.4.5"
+}
 }

@@ -33,6 +33,12 @@
           </v-list-item-icon>
           <v-list-item-title>A4 - Covid Force Graph</v-list-item-title>
         </v-list-item>
+        <v-list-item to="/a5">
+          <v-list-item-icon>
+            <v-icon>mdi-weather-hazy</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>A5 - Leaflet SG PSI</v-list-item-title>
+        </v-list-item>
       </v-list-item-group>
     </v-list>
   </v-navigation-drawer>
